@@ -31,3 +31,26 @@ const myFunction = function(){
 }
 
 console.log(typeof heros);
+
+
+//stack(primitive), heap(non-primitive)
+
+let myYoutubename ="rohitkhandelwal.com"
+let anothername = myYoutubename
+anothername="chaiaurcode"
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne ={
+    email:"rohit.com",
+    upi:"9352885001ybl"
+}
+
+let userTwo = userOne
+userTwo.email ="rohit@google.com"
+userTwo.upi ="7727918430ybl"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+console.log(userOne.upi);
+console.log(userTwo.upi);
